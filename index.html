@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Matthias Bogarin</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/main.css" />
+    <!--Links for fontawesome icons & fonts I want to use from google-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Odibee+Sans&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
+  </head>
+
+  <body>
+    <div class="spinner-container">
+      <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <span>Close</span>
+      </div>
+      <header>
+        <div class="img-wrapper">
+          <img src="assets/images /waves-2.jpeg" />
+        </div>
+
+        <div class="banner">
+          <div id="profile-pic">
+            <img src="assets/images /picofme2.jpg" />
+          </div>
+          <h1>Matthias Bogarin</h1>
+          <h2>Software/Mobile Developer</h2>
+        </div>
+      </header>
+      <section class="sidebar">
+        <ul class="menu">
+          <li class="menu-item">
+            <div>
+              <img
+                src="assets/images /MB-Logo.jpeg"
+                style="width: 150px; height: 150px;"
+              />
+            </div>
+          </li>
+          <li class="menu-item">
+            <a href="index.html" class="menu-link" data-content="Home">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="#AboutMe" class="menu-link" data-content="About Me"
+              >About</a
+            >
+          </li>
+
+          <li class="menu-item">
+            <a href="#Projects" class="menu-link" data-content="Projects"
+              >Projects</a
+            >
+          </li>
+          <!--<li class="menu-item">
+            <a href="#" class="menu-link" data-content="Blog">Blog</a>
+          </li>
+        -->
+          <li class="menu-item">
+            <a href="#ContactMe" class="menu-link" data-content="Contact Me"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="social-media">
+          <a href="https://github.com/matthiasbogarin">
+            <i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/matthias-bogarin-106180156/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/Mbogarin18/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/mattbogarin/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/MatthiasBogarin"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Icon for origin topic of me: <i class="fas fa-passport"></i> 
+              Icon for education topic of me: <i class="fas fa-graduation-cap"></i>
+              Icon for volunteering topic of me: <i class="fas fa-hand-holding-heart"></i>
+              Icon for Family topic of me: <i class="fas fa-home"></i>
+              Icon for rest of the info on me: <i class="fas fa-portrait"></i>
+        -->
+      <section class="About">
+        <a name="AboutMe"></a>
+        <div class="section-header">
+          <h1 class="section-heading">About</h1>
+          <div class="underline"></div>
+        </div>
+        <div class="sub-heading">
+          <h3>Technical Skills</h3>
+          <h3>Tools/Platforms</h3>
+        </div>
+        <div class="upper-section">
+          <div class="upper-left-section">
+            <div class="skill-container">
+              <div class="skill-card">
+                <div class="box">
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>90<span>%</span></h2>
+                    </div>
+                  </div>
+                  <h2 class="text">HTML/CSS</h2>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="box">
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>70<span>%</span></h2>
+                    </div>
+                  </div>
+                  <h2 class="text">JavaScript</h2>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="box">
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>70<span>%</span></h2>
+                    </div>
+                  </div>
+                  <h2 class="text">Swift</h2>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="box">
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>70<span>%</span></h2>
+                    </div>
+                  </div>
+                  <h2 class="text">C++</h2>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="box">
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>50<span>%</span></h2>
+                    </div>
+                  </div>
+                  <h2 class="text">JAVA</h2>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="box">
+                  <div class="percent">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"></circle>
+                      <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                      <h2>50<span>%</span></h2>
+                    </div>
+                  </div>
+                  <h2 class="text">PHP</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="upper-right-section">
+            <!--chart start-->
+            <div class="chart">
+              <ul class="numbers">
+                <li><span>100%</span></li>
+                <li><span>50%</span></li>
+                <li><span>0%</span></li>
+              </ul>
+              <ul class="bars">
+                <li>
+                  <div class="bar" data-percentage="80"></div>
+                  <span>Firebase</span>
+                </li>
+                <li>
+                  <div class="bar" data-percentage="75"></div>
+                  <span>Vs Code</span>
+                </li>
+                <li>
+                  <div class="bar" data-percentage="45"></div>
+                  <span>MySQL</span>
+                </li>
+                <li>
+                  <div class="bar" data-percentage="75"></div>
+                  <span>Xcode</span>
+                </li>
+                <li>
+                  <div class="bar" data-percentage="20"></div>
+                  <span>Node.js</span>
+                </li>
+                <li>
+                  <div class="bar" data-percentage="75"></div>
+                  <span>Git</span>
+                </li>
+              </ul>
+            </div>
+            <!--chart end-->
+          </div>
+        </div>
+        <div class="sub-heading-bottom">
+          <h3>More info</h3>
+        </div>
+        <div class="bottom-section">
+          <div class="topics">
+            <div class="topic">
+              <div class="topic-header">
+                <i class="fas fa-passport"></i>
+                <h3>Origin</h3>
+              </div>
+              <p class="topic-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                non iure ut, eveniet pariatur suscipit incidunt enim amet libero
+                atque voluptas consequatur in, accusamus ipsam sit ea neque
+                eligendi cupiditate.
+              </p>
+            </div>
+            <div class="topic">
+              <div class="topic-header">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Education</h3>
+              </div>
+              <p class="topic-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                non iure ut, eveniet pariatur suscipit incidunt enim amet libero
+                atque voluptas consequatur in, accusamus ipsam sit ea neque
+                eligendi cupiditate.
+              </p>
+            </div>
+            <div class="topic">
+              <div class="topic-header">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h3>Volunteering</h3>
+              </div>
+              <p class="topic-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                non iure ut, eveniet pariatur suscipit incidunt enim amet libero
+                atque voluptas consequatur in, accusamus ipsam sit ea neque
+                eligendi cupiditate.
+              </p>
+            </div>
+            <div class="topic">
+              <div class="topic-header">
+                <i class="fas fa-home"></i>
+                <h3>Family</h3>
+              </div>
+              <p class="topic-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                non iure ut, eveniet pariatur suscipit incidunt enim amet libero
+                atque voluptas consequatur in, accusamus ipsam sit ea neque
+                eligendi cupiditate.
+              </p>
+            </div>
+            <div class="topic">
+              <div class="topic-header">
+                <i class="fas fa-portrait"></i>
+                <h3>Me, Myself and I</h3>
+              </div>
+              <p class="topic-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                non iure ut, eveniet pariatur suscipit incidunt enim amet libero
+                atque voluptas consequatur in, accusamus ipsam sit ea neque
+                eligendi cupiditate.
+              </p>
+            </div>
+            <div class="topic">
+              <div class="topic-header">
+                <i class="fas fa-briefcase"></i>
+                <h3>Experience</h3>
+              </div>
+              <p class="topic-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                non iure ut, eveniet pariatur suscipit incidunt enim amet libero
+                atque voluptas consequatur in, accusamus ipsam sit ea neque
+                eligendi cupiditate.
+              </p>
+            </div>
+            <div class="about-me-img-wrapper">
+              <img src="assets/images /headshot1.JPG" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Projects">
+        <a name="Projects"></a>
+        <div class="section-header">
+          <h1 class="section-heading">Projects</h1>
+          <div class="underline-projects"></div>
+        </div>
+        <div class="cards-wrapper">
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="assets/images /EPRS-LOGO.png" alt="project1" />
+            </div>
+            <div class="card-info">
+              <h2>EPRS</h2>
+              <h3>Mobile App</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+                enim, perspiciatis ipsa id ducimus recusandae voluptatum eaque,
+                alias beatae veniam in vitae placeat magni natus quasi iste ex
+                minima illum!
+              </p>
+              <button class="card-left-btn">Read More</button>
+              <button class="card-right-btn">Code Here</button>
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="assets/images /SNOMEDROID-LOGO.png" alt="project2" />
+            </div>
+            <div class="card-info">
+              <h2>SNOMEDROID</h2>
+              <h3>Mobile App</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+                enim, perspiciatis ipsa id ducimus recusandae voluptatum eaque,
+                alias beatae veniam in vitae placeat magni natus quasi iste ex
+                minima illum!
+              </p>
+              <button>Read More</button>
+              <button>Code Here</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <a name="ContactMe"></a>
+        <div class="contact-wrapper">
+          <div class="contact-left"></div>
+          <div class="contact-right">
+            <h1 class="contact-heading">Contact Me</h1>
+            <form>
+              <div class="input-group">
+                <input type="text" class="field" />
+                <label class="input-label">Full Name</label>
+              </div>
+              <div class="input-group">
+                <input type="email" class="field" />
+                <label class="input-label">Email</label>
+              </div>
+              <div class="input-group">
+                <input type="text" class="field" />
+                <label class="input-label">Company Name(Optional)</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field"></textarea>
+                <label class="message">Message</label>
+              </div>
+              <input type="submit" class="submit-button" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <p class="copyright">
+            Copyright &copy; 2020, Matthias Bogarin - All Rights Reserved
+          </p>
+          <div class="social-list">
+            <a href="https://github.com/matthiasbogarin">
+              <i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/matthias-bogarin-106180156/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://www.facebook.com/Mbogarin18/"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/mattbogarin/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://twitter.com/MatthiasBogarin"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+      <a href="#" class="scroll-button">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <script type="text/javascript">
+      $(function () {
+        $(".bars li .bar").each(function (key, bar) {
+          var percentage = $(this).data("percentage");
+          $(this).animate(
+            {
+              height: percentage * 1.33 + "%",
+            },
+            1000
+          );
+        });
+      });
+    </script>
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="tilt.js"></script>
+  </body>
+</html>
